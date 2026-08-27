@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twitch Clip Uploader</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem;
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 1.75rem; margin-bottom: .25rem; }
+  .sub { opacity: .7; margin-top: 0; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .4rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #8883; opacity: .7; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Twitch Clip Uploader</h1>
+<p class="sub">Персональный инструмент для автоматической нарезки и публикации клипов.</p>
+
+<h2>Что делает приложение</h2>
+<p>
+  Приложение следит за трансляциями на Twitch, замечает всплески активности в чате,
+  вырезает из записи короткие вертикальные клипы и публикует их на YouTube-каналы,
+  принадлежащие владельцу приложения.
+</p>
+
+<h2>Как используется доступ к YouTube</h2>
+<ul>
+  <li>Запрашивается единственное разрешение — <code>youtube.upload</code>.</li>
+  <li>Оно используется только для того, чтобы загрузить видеофайл на собственный канал владельца.</li>
+  <li>Приложение не читает, не изменяет и не удаляет существующие видео, плейлисты, комментарии и подписки.</li>
+</ul>
+
+<h2>Кто им пользуется</h2>
+<p>
+  Приложение не публичное. Оно запускается на личном компьютере владельца и работает
+  только с его собственными аккаунтами. Регистрация и сторонние пользователи не предусмотрены.
+</p>
+
+<h2>Конфиденциальность</h2>
+<p>
+  Условия обработки данных описаны в <a href="privacy.html">политике конфиденциальности</a>.
+</p>
+
+<footer>
+  Личный некоммерческий проект.
+</footer>
+
+</body>
+</html>
